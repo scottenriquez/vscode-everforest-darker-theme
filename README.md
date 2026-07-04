@@ -12,8 +12,14 @@ installable `.vsix` archive, run the following command:
 npx @vscode/vsce package
 ```
 
-To install the archive, open the `Extensions` view, click the ellipses, and choose
+To install the archive using the GUI, open the `Extensions` view, click the ellipses, and choose
 `Install from VSIX`.
+
+To install from the terminal, use the following command:
+```sh
+# update .vsix file for the correct version
+code --install-extension everforest-darker-0.0.1.vsix
+```
 
 ## Palette
 
@@ -34,7 +40,3 @@ To install the archive, open the `Extensions` view, click the ellipses, and choo
 | Grey | `#7A8478` |
 | Selection | `#4C3743` |
 | Cursor | `#E69875` |
-
-## License
-
-[MIT](LICENSE)
