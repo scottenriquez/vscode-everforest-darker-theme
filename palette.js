@@ -1,0 +1,40 @@
+const palette = {
+  crust: "#161B1E",
+  background: "#1E2326",
+  editorBackground: "#181D20",
+  inputBackground: "#272E33",
+  panelBackground: "#1B2023",
+  backgroundOne: "#2E383C",
+  backgroundTwo: "#374145",
+  backgroundThree: "#414B50",
+  backgroundFour: "#495156",
+  selectedIndentGuide: "#4F5B58",
+  foreground: "#D3C6AA",
+  red: "#E67E80",
+  orange: "#E69875",
+  yellow: "#DBBC7F",
+  green: "#A7C080",
+  aqua: "#83C092",
+  blue: "#7FBBB3",
+  purple: "#D699B6",
+  greyZero: "#7A8478",
+  greyOne: "#859289",
+  greyTwo: "#9DA9A0",
+  selection: "#4C3743",
+  cursor: "#E69875",
+  link: "#7FBBB3",
+};
+
+const terminalBright = {
+  brightBlack: "#A6B0A0",
+  brightRed: "#F85552",
+  brightGreen: "#8DA101",
+  brightYellow: "#DFA000",
+  brightBlue: "#3A94C5",
+  brightMagenta: "#DF69BA",
+  brightCyan: "#35A77C",
+  brightWhite: "#FFFBEF",
+  white: "#F2EFDF",
+};
+
+module.exports = { palette, terminalBright };

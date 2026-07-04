@@ -1,0 +1,41 @@
+{
+  "name": "everforest-darker",
+  "displayName": "Everforest Darker",
+  "description": "A darker port of the Everforest color scheme, matching the JetBrains Everforest Darker theme.",
+  "version": "0.0.1",
+  "publisher": "xxx.scottie",
+  "author": {
+    "name": "Scottie Enriquez",
+    "url": "https://scottie.la"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "everforest",
+    "dark",
+    "theme",
+    "color scheme"
+  ],
+  "galleryBanner": {
+    "color": "#1E2326",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scottenriquez/vscode-everforest-darker-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Everforest Darker",
+        "uiTheme": "vs-dark",
+        "path": "./themes/everforest-darker-color-theme.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+.gitignore
+.vscode/**
+test/**
+palette.js
+CLAUDE.md
+CHANGELOG.md
+**/.DS_Store
